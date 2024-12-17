@@ -1,0 +1,3 @@
+# Git ignore for the full course
+images/
+.DS_Store
