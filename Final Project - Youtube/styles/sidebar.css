@@ -1,34 +1,71 @@
 /* CSS for lesson 16 - Sidebar Styles */
 
-.sidebar {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  top: 55px;
-  background-color: rgb(255, 255, 255);
-  width: 72px;
-  z-index: 200;
-  padding-top: 5px;
+@media (max-width: 1125px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: rgb(255, 255, 255);
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+  }
+
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+  }
+
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 7px;
+  }
+
+  .sidebar-link div {
+    font-size: 10px;
+  }
 }
 
-.sidebar-link {
-  height: 74px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.sidebar-link:hover {
-  background-color: rgb(235, 235, 235);
-  cursor: pointer;
-}
+@media (min-width: 1125px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    z-index: 200;
+    padding-top: 5px;
+  }
 
-.sidebar-link img {
-  height: 24px;
-  margin-bottom: 7px;
-}
+  .sidebar-link {
+    height: 74px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 10px;
+  }
+  .sidebar-link:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+  }
 
-.sidebar-link div {
-  font-family: Roboto, Arial;
-  font-size: 10px;
+  .sidebar-link img {
+    height: 24px;
+    margin-bottom: 7px;
+  }
+
+  .sidebar-link div {
+    font-size: 10px;
+    padding-left: 10px;
+  }
 }
