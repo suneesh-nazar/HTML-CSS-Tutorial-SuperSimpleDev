@@ -1,0 +1,48 @@
+/* Styling CSS for Exercises in Lesson 09 */
+
+/* E10e */
+.pet-profile {
+  margin: 5px 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  display: inline-block;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile-name {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.mutual-friend-picture {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin: 5px 5px;
+}
+.mutual-friends {
+  margin: 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: grey;
+  display: inline-block;
+  vertical-align: middle;
+}
+.button-add-friend {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+}

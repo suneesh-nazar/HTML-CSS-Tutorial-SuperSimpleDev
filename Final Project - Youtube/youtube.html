@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<!-- Practise for Lesson 9 - Youtube Clone 
- Introducing div element for more videos as a container-->
+<!-- Practise for Lesson 10 - Youtube Clone
+ Introducing the Nested layout technique, displaying the thumbnails in a row -->
 
 <html lang="en">
   <head>
@@ -9,32 +9,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube.com Clone</title>
 
+    <!-- Google font - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Styles for YouTube Clone htmal -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <input type="text" class="search-bar" placeholder="Search" />
     <div class="video-preview">
-      <img
-        class="thumbnails"
-        src="images/thumbnail-1.webp"
-        alt="Talking Tech and AI with Google CEO Sundar Pichai!"
-      />
-      <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai!
-      </p>
-      <p class="video-author">Marques Brownlee</p>
-      <p class="video-stats">3.4M views &#183; 6 months ago</p>
+      <div class="thumbnail-row">
+        <img
+          class="thumbnails"
+          src="images/thumbnail-1.webp"
+          alt="Talking Tech and AI with Google CEO Sundar Pichai!"
+        />
+      </div>
+      <div class="verticallayout2">
+        <div class="channel-picture">
+          <img class="profile-picture" src="images/channel-1.jpeg" alt="" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+          </p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">3.4M views &#183; 6 months ago</p>
+        </div>
+      </div>
     </div>
     <div class="video-preview">
-      <img
-        class="thumbnails"
-        src="images/thumbnail-2.webp"
-        alt="Try Not To Laugh Challenge #9"
-      />
-      <p class="video-title">Try Not To Laugh Challenge #9</p>
-      <p class="video-author">Markiplier</p>
-      <p class="video-stats">19M views &#183; 4 years ago</p>
+      <div class="thumbnail-row">
+        <img
+          class="thumbnails"
+          src="images/thumbnail-2.webp"
+          alt="Try Not To Laugh Challenge #9"
+        />
+      </div>
+      <div class="verticallayout2">
+        <div class="channel-picture">
+          <img class="profile-picture" src="images/channel-2.jpeg" alt="" />
+        </div>
+        <div class="video-info">
+          <p class="video-title">Try Not To Laugh Challenge #9</p>
+          <p class="video-author">Markiplier</p>
+          <p class="video-stats">19M views &#183; 4 years ago</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
