@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<!-- Practise for Lesson 11 - Youtube Clone 
- Laying out the Grid for the videos and assing 4 more videos-->
+<!-- Practise for Lesson 12 - Youtube Clone 
+ Introducing Flexbox and designing the header section using Flexbox-->
 
 <html lang="en">
   <head>
@@ -17,24 +17,37 @@
       rel="stylesheet"
     />
 
-    <!-- Styles for YouTube Clone htmal -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- Styles for YouTube Clone html -->
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
   </head>
   <body>
-    <input type="text" class="search-bar" placeholder="Search" />
+    <div class="header">
+      <div class="left-section">left section</div>
+      <div class="middle-section">
+        <input type="text" class="search-bar" placeholder="Search" />
+      </div>
+      <div class="right-section">right section</div>
+    </div>
+
     <div class="video-grid">
       <!-- Video 1 -->
       <div class="video-preview">
         <div class="thumbnail-row">
           <img
             class="thumbnails"
-            src="images/thumbnail-1.webp"
+            src="images/thumbnails/thumbnail-1.webp"
             alt="Talking Tech and AI with Google CEO Sundar Pichai!"
           />
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="images/channel-1.jpeg" alt="" />
+            <img
+              class="profile-picture"
+              src="images/channel-pictures/channel-1.jpeg"
+              alt=""
+            />
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -45,18 +58,23 @@
           </div>
         </div>
       </div>
+
       <!-- Video 2 -->
       <div class="video-preview">
         <div class="thumbnail-row">
           <img
             class="thumbnails"
-            src="images/thumbnail-2.webp"
+            src="images/thumbnails/thumbnail-2.webp"
             alt="Try Not To Laugh Challenge #9"
           />
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="images/channel-2.jpeg" alt="" />
+            <img
+              class="profile-picture"
+              src="images/channel-pictures/channel-2.jpeg"
+              alt=""
+            />
           </div>
           <div class="video-info">
             <p class="video-title">Try Not To Laugh Challenge #9</p>
@@ -65,18 +83,23 @@
           </div>
         </div>
       </div>
+
       <!-- Video 3 -->
       <div class="video-preview">
         <div class="thumbnail-row">
           <img
             class="thumbnails"
-            src="images/thumbnail-3.webp"
+            src="images/thumbnails/thumbnail-3.webp"
             alt="Crazy Tik Toks Taken Moments Before DISASTER"
           />
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="images/channel-3.jpeg" alt="" />
+            <img
+              class="profile-picture"
+              src="images/channel-pictures/channel-3.jpeg"
+              alt=""
+            />
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -87,18 +110,23 @@
           </div>
         </div>
       </div>
+
       <!-- Video 4 -->
       <div class="video-preview">
         <div class="thumbnail-row">
           <img
             class="thumbnails"
-            src="images/thumbnail-4.webp"
+            src="images/thumbnails/thumbnail-4.webp"
             alt="The Simplest Math Problem No One Can Solve - Collatz Conjecture"
           />
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="images/channel-4.jpeg" alt="" />
+            <img
+              class="profile-picture"
+              src="images/channel-pictures/channel-4.jpeg"
+              alt=""
+            />
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -109,18 +137,23 @@
           </div>
         </div>
       </div>
+
       <!-- Video 5 -->
       <div class="video-preview">
         <div class="thumbnail-row">
           <img
             class="thumbnails"
-            src="images/thumbnail-5.webp"
+            src="images/thumbnails/thumbnail-5.webp"
             alt="Kadane's Algorithm to Maximum Sum Subarray Problem"
           />
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="images/channel-5.jpeg" alt="" />
+            <img
+              class="profile-picture"
+              src="images/channel-pictures/channel-5.jpeg"
+              alt=""
+            />
           </div>
           <div class="video-info">
             <p class="video-title">
@@ -131,18 +164,23 @@
           </div>
         </div>
       </div>
+
       <!-- Video 6 -->
       <div class="video-preview">
         <div class="thumbnail-row">
           <img
             class="thumbnails"
-            src="images/thumbnail-6.webp"
+            src="images/thumbnails/thumbnail-6.webp"
             alt="Anything You Can Fit In The Circle I'll Pay For"
           />
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
-            <img class="profile-picture" src="images/channel-6.jpeg" alt="" />
+            <img
+              class="profile-picture"
+              src="images/channel-pictures/channel-6.jpeg"
+              alt=""
+            />
           </div>
           <div class="video-info">
             <p class="video-title">

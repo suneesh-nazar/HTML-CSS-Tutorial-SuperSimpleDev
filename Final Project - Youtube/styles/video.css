@@ -1,16 +1,9 @@
-/* CSS for Youtube Clone html */
+/* CSS for lesson 12 - Video styles */
 
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .thumbnails {
   width: 100%;
 }
-.search-bar {
-  display: block;
-}
+
 .video-title {
   margin-top: 0;
   font-size: 14px;
@@ -18,10 +11,17 @@ p {
   line-height: 20px;
   margin-bottom: 12px;
 }
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
 .profile-picture {
   width: 40px;
   border-radius: 50px;
 }
+
 .thumbnail-row {
   margin-bottom: 12px;
 }
@@ -31,13 +31,11 @@ p {
   font-size: 12px;
   color: rgb(96, 96, 96);
 }
+
 .video-author {
   margin-bottom: 4px;
 }
-.video-info-grid {
-  display: grid;
-  grid-template-columns: 50px 1fr;
-}
+
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
