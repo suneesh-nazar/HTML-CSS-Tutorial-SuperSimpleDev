@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<!-- Practice for Lesson 14 - Youtube Clone 
-CSS positionsg (fixed, absolute, relative) and introducing sidebar -->
+<!-- Practice for Lesson 15 - Youtube Clone 
+ Putting the video timestamp on thumbnail using Position Absolute and Relative-->
 
 <html lang="en">
   <head>
@@ -57,11 +57,14 @@ CSS positionsg (fixed, absolute, relative) and introducing sidebar -->
           alt=""
           class="youtube-apps-icon"
         />
-        <img
-          src="images/icons/notifications.svg"
-          alt=""
-          class="notifications-icon"
-        />
+        <div class="notifications-icon-container">
+          <img
+            src="images/icons/notifications.svg"
+            alt=""
+            class="notifications-icon"
+          />
+          <div class="notifications-count">3</div>
+        </div>
         <img
           src="images/channel-pictures/Sun-Rishu.jpg"
           alt=""
@@ -79,6 +82,7 @@ CSS positionsg (fixed, absolute, relative) and introducing sidebar -->
             src="images/thumbnails/thumbnail-1.webp"
             alt="Talking Tech and AI with Google CEO Sundar Pichai!"
           />
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -106,6 +110,7 @@ CSS positionsg (fixed, absolute, relative) and introducing sidebar -->
             src="images/thumbnails/thumbnail-2.webp"
             alt="Try Not To Laugh Challenge #9"
           />
+          <div class="video-time">8:22</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -131,6 +136,7 @@ CSS positionsg (fixed, absolute, relative) and introducing sidebar -->
             src="images/thumbnails/thumbnail-3.webp"
             alt="Crazy Tik Toks Taken Moments Before DISASTER"
           />
+          <div class="video-time">9:13</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -158,6 +164,7 @@ CSS positionsg (fixed, absolute, relative) and introducing sidebar -->
             src="images/thumbnails/thumbnail-4.webp"
             alt="The Simplest Math Problem No One Can Solve - Collatz Conjecture"
           />
+          <div class="video-time">22:09</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -185,6 +192,7 @@ CSS positionsg (fixed, absolute, relative) and introducing sidebar -->
             src="images/thumbnails/thumbnail-5.webp"
             alt="Kadane's Algorithm to Maximum Sum Subarray Problem"
           />
+          <div class="video-time">11:17</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -212,6 +220,7 @@ CSS positionsg (fixed, absolute, relative) and introducing sidebar -->
             src="images/thumbnails/thumbnail-6.webp"
             alt="Anything You Can Fit In The Circle I'll Pay For"
           />
+          <div class="video-time">19:59</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
