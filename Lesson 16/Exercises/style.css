@@ -1,0 +1,64 @@
+/* CSS for tooltip practice */
+
+div {
+  font-family: Roboto, Arial;
+}
+
+.blank {
+  background-color: white;
+  height: 20px;
+  border-style: solid;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.channel-tooltip-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.profile-picture-container {
+  position: relative;
+}
+
+.profile-picture-container .channel-tooltip {
+  position: absolute;
+  bottom: -100px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.profile-picture-container:hover .channel-tooltip {
+  opacity: 1;
+}
+
+/* ======================================================================================= */
+
+
+.channel-tooltip {
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 250px;
+  border-radius: 5px;
+}
+
+.profile-details {
+  margin-left: 10px;
+}
+.channel-tooltip-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.channel-tooltip-stats{
+    color: grey;
+    margin-bottom: 20px;
+
+}

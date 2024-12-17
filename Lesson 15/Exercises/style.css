@@ -1,0 +1,81 @@
+/* CSS for Exercises in Lesson 15 */
+
+/* Google font - Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  height: 3000px;
+  font-family: Roboto, Arial;
+}
+
+/* E15a-d */
+.video-preview {
+  width: 320px;
+  height: 180px;
+  background-color: rgb(140, 140, 140);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.close-button {
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  padding: 4px 6px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* E15e */
+.product-container {
+  display: inline-block;
+  position: relative;
+}
+
+.product-image {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.promotion {
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+/* E15f */
+
+.overlay-box {
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add-to-cart {
+  padding: 10px 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(80, 80, 80);
+  background-color: white;
+}
