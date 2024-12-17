@@ -1,0 +1,100 @@
+/*CSS for Exercise from Lesson 2*/
+
+.button-request-now {
+  height: 50px;
+  width: 130px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.button-addtocart {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.button-signup {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(46, 169, 79);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-getstarted {
+  height: 50px;
+  width: 150px;
+  background-color: rgb(121, 82, 179);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.button-download {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-radius: 6px;
+  border-style: solid;
+  color: rgb(108, 117, 125);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-apply {
+  height: 60px;
+  width: 370px;
+  color: white;
+  background-color: rgb(10, 102, 194);
+  border: none;
+  border-radius: 30px;
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.button-save {
+  height: 60px;
+  width: 150px;
+  color: rgb(10, 102, 194);
+  background-color: white;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.link-backtoamazon {
+  color: rgb(0, 113, 133);
+}
+.txt-runningshoes {
+  font-size: 25px;
+  font-weight: bold;
+}
+.txt-stock {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.button-buynow {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(255, 164, 28);
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
