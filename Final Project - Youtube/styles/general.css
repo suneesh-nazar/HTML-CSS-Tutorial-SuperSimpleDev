@@ -1,4 +1,4 @@
-/* CSS for lesson 12 - General Styles */
+/* CSS for lesson 14 - General Styles */
 
 p {
   font-family: Roboto, Arial;
@@ -6,6 +6,8 @@ p {
   margin-bottom: 0;
 }
 
-body{
-    margin: 0;
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 80px;
 }

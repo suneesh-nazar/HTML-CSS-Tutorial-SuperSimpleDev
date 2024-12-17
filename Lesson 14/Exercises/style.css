@@ -1,0 +1,180 @@
+/* CSS for the exercise in lesson 14 */
+
+body {
+  height: 3000px;
+  width: 3000px;
+}
+
+div {
+  font-family: Arial;
+}
+
+/* E14a */
+.position-bottom-right {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* E14b */
+.right-sidebar {
+  background-color: green;
+  color: white;
+  width: 100px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* E14c */
+.black-screen {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* E14d */
+
+.overlay-element {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.modal-description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.close-button {
+  font-size: 18px;
+}
+
+/* E14e */
+
+.facebook-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-weight: 700;
+}
+
+.add-friend {
+  background-color: rgb(78, 78, 255);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.message {
+  background-color: rgb(240, 240, 240);
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* E14f */
+.profile-bar {
+  background-color: rgb(25, 25, 25);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding-top: 20px;
+  padding-left: 8px;
+}
+
+.menu-bar {
+  background-color: rgb(75, 75, 75);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 78px;
+}
+
+.menu-items {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  width: 180px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info {
+  color: white;
+  font-weight: 700;
+}
+
+.plus {
+  color: rgb(175, 175, 175);
+  font-size: 26px;
+}
+
+.new-videos {
+  color: rgb(175, 175, 175);
+  font-size: 16px;
+  margin-bottom: 20px;
+}

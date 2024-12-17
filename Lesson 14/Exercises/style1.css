@@ -1,0 +1,63 @@
+/* CSS for the exercise in lesson 14 */
+
+body {
+  height: 3000px;
+  width: 3000px;
+}
+
+div {
+  font-family: Arial;
+}
+
+/* E14e1 */
+
+  
+
+.facebook-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-weight: 700;
+}
+
+.add-friend {
+  background-color: rgb(78, 78, 255);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  right: 160px;
+}
+
+.message {
+  background-color: rgb(240, 240, 240);
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  right: 50px;
+}
