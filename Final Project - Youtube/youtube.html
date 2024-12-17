@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<!-- Practise for Lesson 7 - Youtube Clone 
- Adding Video info and realigning search box-->
+<!-- Practise for Lesson 9 - Youtube Clone 
+ Introducing div element for more videos as a container-->
 
 <html lang="en">
   <head>
@@ -14,15 +14,27 @@
   </head>
   <body>
     <input type="text" class="search-bar" placeholder="Search" />
-    <img
-      class="thumbnails"
-      src="images/thumbnail-1.webp"
-      alt="Talking Tech and AI with Google CEO Sundar Pichai!"
-    />
-    <p class="video-title">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">Marques Brownlee</p>
-    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+    <div class="video-preview">
+      <img
+        class="thumbnails"
+        src="images/thumbnail-1.webp"
+        alt="Talking Tech and AI with Google CEO Sundar Pichai!"
+      />
+      <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai!
+      </p>
+      <p class="video-author">Marques Brownlee</p>
+      <p class="video-stats">3.4M views &#183; 6 months ago</p>
+    </div>
+    <div class="video-preview">
+      <img
+        class="thumbnails"
+        src="images/thumbnail-2.webp"
+        alt="Try Not To Laugh Challenge #9"
+      />
+      <p class="video-title">Try Not To Laugh Challenge #9</p>
+      <p class="video-author">Markiplier</p>
+      <p class="video-stats">19M views &#183; 4 years ago</p>
+    </div>
   </body>
 </html>

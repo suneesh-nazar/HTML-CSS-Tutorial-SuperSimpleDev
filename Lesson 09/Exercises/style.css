@@ -1,0 +1,152 @@
+/* Styling CSS for Exercises in Lesson 09 */
+
+/* E09a */
+.div-square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+/* E09b */
+.div-circle {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
+}
+/* E09c */
+.div-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(208, 208, 208);
+  padding: 10px 10px;
+  width: 300px;
+}
+.text-question {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+/* E09d */
+.div-box {
+  background-color: rgb(42, 42, 42);
+  width: 450px;
+  height: 130px;
+}
+.text-youtube-music {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.text-youtube-desc {
+  color: rgb(178, 178, 178);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+/* E09e */
+.twitter-box {
+  padding-left: 10px;
+  width: 500px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.display-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+  vertical-align: middle;
+}
+.textbox-tweet {
+  padding: 0px 10px;
+  width: 330px;
+  height: 70px;
+  font-size: 20px;
+  border: none;
+  vertical-align: middle;
+}
+.button-tweet {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  vertical-align: middle;
+}
+/* E09f */
+.pet-profile {
+  margin: 5px 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  display: inline-block;
+}
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile-name {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.mutual-friends {
+  margin: 5px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: grey;
+}
+.button-add-friend {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+/* E09h */
+
+.div-googlelogo {
+  text-align: center;
+}
+.google-logo {
+  width: 250px;
+  margin: 10px 0px;
+}
+.div-searchbox {
+  text-align: center;
+}
+.textbox-shadow {
+  font-size: 20px;
+  width: 500px;
+  height: 40px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.div-searchbuttons {
+  text-align: center;
+}
+.button-search,
+.button-feelinglucky {
+  font-size: 20px;
+  border: none;
+  margin: 40px 10px;
+  padding: 15px 20px;
+}
