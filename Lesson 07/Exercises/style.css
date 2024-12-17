@@ -1,0 +1,106 @@
+/* CSS for Exercises in lesson 7 */
+
+.image-corner {
+  width: 200px;
+  border-radius: 20px;
+}
+.image-center {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.image-circle {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+}
+.textbox-rounded {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 12px 15px 12px 15px;
+  font-size: 20px;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-style: solid;
+}
+.textbox-shadow {
+  margin: 20px 20px;
+  font-size: 18px;
+  width: 400px;
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* CSS for Linkedin Signup Clone */
+.linkedinsignup {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 20px;
+}
+.text-email {
+  color: grey;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.textbox-email {
+  margin-top: 10px;
+  width: 340px;
+  height: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: rgb(118, 118, 118);
+  font-size: 18px;
+}
+.text-agreement {
+  font-size: 14px;
+  color: grey;
+}
+.button-agree {
+  padding: 15px 120px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(10, 102, 194);
+  cursor: pointer;
+}
+.button-agree:hover {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border: solid;
+  border-color: rgb(10, 102, 194);
+  border-width: 2px;
+}
+.display-pic {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 200px;
+  vertical-align: middle;
+}
+.textbox-tweet {
+  padding: 0px 10px;
+  width: 300px;
+  height: 70px;
+  font-size: 20px;
+  border: none;
+  vertical-align: middle;
+}
+.button-tweet {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  vertical-align: middle;
+}
