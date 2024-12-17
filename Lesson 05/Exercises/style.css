@@ -1,0 +1,169 @@
+/* CSS for Lesson 05 Exercises */
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* CSS for Exercise 05a - Tahoma */
+
+.font-tahoma {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* CSS for Exercise 05b - Big Deals */
+
+.biggest-deals {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.sales-end {
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: italic;
+  color: red;
+}
+
+/* CSS for Exercise 05c - Course Banner */
+
+.course-head {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 24px;
+}
+.course-spec {
+  font-family: Verdana;
+  font-size: 20px;
+  margin-top: 5px;
+  color: grey;
+}
+.course-desc {
+  font-family: Verdana;
+  font-size: 20px;
+  margin-top: 25px;
+  width: 350px;
+}
+.get-started {
+  font-family: Verdana;
+  font-size: 16px;
+  margin-top: 25px;
+  background-color: green;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+  width: 110px;
+  text-align: center;
+}
+
+/* CSS for Exercise 05d - Shopping Banner */
+
+.shopping-heading {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 20px;
+  text-align: center;
+}
+.shopping-desc {
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+.shopping-link {
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(97, 97, 255);
+}
+
+/* CSS for Exercise 05e - MacBook Pro */
+
+.macbook-banner {
+  font-family: Arial;
+  text-align: center;
+}
+.macbook-new {
+  color: red;
+  font-size: 15px;
+}
+.macbook-head {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.macbook-desc {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.macbook-price {
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgb(62, 62, 62);
+}
+.macbook-buy {
+  background-color: rgb(0, 113, 227);
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  padding: 7px 15px 7px 15px;
+  margin: 15px 210px 0px 210px;
+}
+
+/* CSS for Exercise 05f - Share Price */
+
+.share-banner {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.share-price {
+  font-size: 40px;
+}
+.usd {
+  font-size: 20px;
+  color: grey;
+}
+.share-increase {
+  margin-top: 10px;
+  color: rgb(30, 127, 30);
+  font-size: 20px;
+}
+.share-stats {
+  margin-top: 10px;
+  font-size: 20px;
+  color: grey;
+}
+.prediction {
+  color: red;
+}
+
+/* CSS for Exercise 05g - Code Camp */
+
+.codecamp-banner {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.codecamp-heading {
+  font-weight: bold;
+}
+.handle {
+  font-weight: normal;
+  color: grey;
+}
+.codecamp-desc {
+  margin-top: 10px;
+  width: 630px;
+}
+.codecamp-guidance {
+  margin-top: 30px;
+}
+.handle-blue {
+  color: rgb(121, 186, 251);
+}
