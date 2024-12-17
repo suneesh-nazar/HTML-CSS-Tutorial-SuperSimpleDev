@@ -1,0 +1,103 @@
+/* CSS for Exercises in lesson 8 */
+
+.name-textbox,
+.email-textbox {
+  display: block;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  width: 200px;
+  height: 20px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: rgb(182, 182, 182);
+  border-style: solid;
+  font-size: 16px;
+}
+.text-surveyconsent {
+  display: inline-block;
+  width: 270px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.button-yes,
+.button-no {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.google-logo {
+  width: 200px;
+  margin: 5px 120px;
+}
+.textbox-shadow {
+  font-size: 18px;
+  width: 400px;
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+}
+.textbox-fname,
+.textbox-lname {
+  margin: 8px 1px;
+  padding: 10px 10px;
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgb(213, 213, 213);
+  border-style: solid;
+  font-size: 18px;
+}
+.textbox-email {
+  margin: 6px 1px;
+  padding: 10px 10px;
+  width: 330px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgb(213, 213, 213);
+  border-style: solid;
+  font-size: 18px;
+  display: block;
+}
+.button-signup {
+  margin: 6px 1px;
+  padding: 15px 140px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.request-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: 20px 5px;
+}
+.textbox-pickup,
+.textbox-destination {
+  display: block;
+  background-color: rgb(240, 240, 240);
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+}
+.button-request {
+  border: none;
+  padding: 15px 25px;
+  margin: 30px 5px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+.button-schedule {
+  border: none;
+  padding: 15px 25px;
+  margin: 30px 15px;
+  font-size: 16px;
+  background-color: rgb(240, 240, 240);
+}
