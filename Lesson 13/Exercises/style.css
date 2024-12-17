@@ -1,0 +1,156 @@
+/* CSS for the exercise in lesson 13 */
+
+p,
+div {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.flexbox {
+  display: flex;
+  height: 50px;
+}
+
+.column1 {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item1 {
+  background-color: black;
+  color: white;
+}
+
+.column2 {
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* E13b */
+
+.lightpink {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+/* E13d */
+
+.grey-text {
+  font-size: 16px;
+  color: grey;
+}
+
+.promotion-flexbox {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.profile-picture {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+
+.promotion-caption-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.promotion-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.time-stamp {
+  font-size: 14px;
+  color: grey;
+}
+
+.promotion-subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+/* E13g */
+.tweet-flex {
+  display: flex;
+}
+
+.tweet-details {
+  width: 400px;
+}
+
+.twitter-user-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.tweet-author {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.tweet-handle {
+  font-size: 18px;
+  color: grey;
+}
+
+.tweet-content {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.video-preview-flex {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.video-thumbnail {
+  height: 111px;
+  width: 111px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+
+.video-info {
+  flex: 1;
+}
+
+.video-website {
+  font-size: 18px;
+  color: rgb(111, 111, 111);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.video-title {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}

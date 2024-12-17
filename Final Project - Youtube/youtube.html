@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<!-- Practise for Lesson 12 - Youtube Clone 
- Introducing Flexbox and designing the header section using Flexbox-->
+<!-- Practice for Lesson 13 - Youtube Clone 
+ Designing the header section using Nested Flexbox-->
 
 <html lang="en">
   <head>
@@ -24,11 +24,47 @@
   </head>
   <body>
     <div class="header">
-      <div class="left-section">left section</div>
+      <div class="left-section">
+        <img
+          src="images/icons/hamburger-menu.svg"
+          alt=""
+          class="hamburger-menu"
+        />
+        <img src="images/icons/youtube-logo.svg" alt="" class="youtube-logo" />
+      </div>
+
       <div class="middle-section">
         <input type="text" class="search-bar" placeholder="Search" />
+        <button class="search-button">
+          <img src="images/icons/search.svg" alt="" class="search-icon" />
+        </button>
+        <button class="voice-search-button">
+          <img
+            src="images/icons/voice-search-icon.svg"
+            alt=""
+            class="voice-search-icon"
+          />
+        </button>
       </div>
-      <div class="right-section">right section</div>
+
+      <div class="right-section">
+        <img src="images/icons/upload.svg" alt="" class="upload-icon" />
+        <img
+          src="images/icons/youtube-apps.svg"
+          alt=""
+          class="youtube-apps-icon"
+        />
+        <img
+          src="images/icons/notifications.svg"
+          alt=""
+          class="notifications-icon"
+        />
+        <img
+          src="images/channel-pictures/Sun-Rishu.jpg"
+          alt=""
+          class="current-user-picture"
+        />
+      </div>
     </div>
 
     <div class="video-grid">
