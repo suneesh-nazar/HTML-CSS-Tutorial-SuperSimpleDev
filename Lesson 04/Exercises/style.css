@@ -1,0 +1,197 @@
+/*CSS for Exercise from Lesson 2*/
+
+.button-request-now {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 18px 25px;
+  transition: opacity 0.15s;
+}
+.button-request-now:hover {
+  opacity: 0.8;
+}
+.button-addtocart {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 14px 40px;
+  transition: background-color 0.15s;
+}
+.button-addtocart:hover {
+  background-color: rgb(251, 240, 20);
+}
+.button-addtocart:active {
+  opacity: 0.4;
+}
+.button-signup {
+  background-color: rgb(46, 169, 79);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 14px 40px;
+  transition: box-shadow 0.15s;
+}
+.button-signup:hover {
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.1);
+}
+.button-getstarted {
+  background-color: rgb(121, 82, 179);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 14px 27px;
+  transition: background-color 0.15s;
+}
+.button-getstarted:hover {
+  background-color: rgb(82, 50, 129);
+}
+.button-download {
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-radius: 6px;
+  border-style: solid;
+  color: rgb(108, 117, 125);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 14px 27px;
+  transition: color 0.15s, background-color 0.15s;
+}
+.button-download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.button-apply {
+  color: white;
+  background-color: rgb(10, 102, 194);
+  border: none;
+  border-radius: 30px;
+  font-size: 23px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 14px 27px;
+  transition: background-color 0.15s;
+}
+.button-apply:hover {
+  background-color: rgb(7, 74, 140);
+}
+.button-save {
+  color: rgb(10, 102, 194);
+  background-color: white;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(10, 102, 194);
+  font-size: 23px;
+  font-weight: bold;
+  padding: 14px 27px;
+  cursor: pointer;
+  transition: border-width 0.15s, background-color 0.15s;
+}
+.button-save:hover {
+  border-width: 2px;
+  background-color: rgb(237, 246, 255);
+}
+.link-backtoamazon {
+  color: rgb(0, 113, 133);
+}
+.link-backtoamazon:hover {
+  color: rgb(231, 142, 69);
+}
+.txt-runningshoes {
+  font-size: 25px;
+  font-weight: bold;
+}
+.txt-stock {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+.button-buynow {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(255, 164, 28);
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.button-buynow:hover {
+  background-color: rgb(244, 149, 6);
+}
+.button-buynow:active {
+  opacity: 0.4;
+}
+.button-back {
+  margin: 8px 8px;
+  padding: 8px 8px;
+  font-size: 16px;
+}
+.button-next {
+  margin: 8px 8px;
+  padding: 8px 8px;
+  font-size: 16px;
+}
+.link-pagenumber {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 18px;
+}
+.button-stretch {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(0, 127, 0);
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: padding 0.6s;
+}
+.button-stretch:hover {
+  padding: 30px 60px;
+}
+.button-shadow {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(0, 127, 0);
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.button-shadow:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  box-shadow: none;
+}
+.button-numbers {
+  background-color: rgb(0, 127, 0);
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+
+  padding: 8px 15px;
+  margin: 6px 10px;
+
+  transition: padding 0.15s, margin 0.15s;
+}
+.button-numbers:hover {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
